@@ -2,10 +2,13 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+nav a {
+    color: white;
+    text-decoration: none;
+}
 nav a .button-box, main, section {
     text-align: center;
     text-decoration: none;
-   
 }
 #hero-msg h1, #hero-msg h4 {
     color: black;
