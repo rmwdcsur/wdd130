@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+     /* change the values below to your chosen font(s) */
+    --heading-font: "Rock Salt", Helvetica, sans-serif;
+    --navbar-font: "Bebas Neue", Helvetica, sans-serif;
+    --paragraph-font: Ubuntu, Helvetica, sans-serif;
+}
+main section img {
+    box-sizing: border-box;
+}
+.home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,8 +26,10 @@
 nav a {
     color: white;
     text-decoration: none;
+    font-family: var(--navbar-font);
+    padding: 35px;
 }
-nav a .button-box, main, section {
+.button-box, main, section {
     text-align: center;
     text-decoration: none;
 }
@@ -18,6 +41,10 @@ nav a .button-box, main, section {
 }
 body {
     background-color: #fcfbfb;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 } 
 header {
     background-color: rgba(20,30,13, .7);
@@ -26,11 +53,12 @@ nav a:hover {
     background-color: black;
     color: #d9c2a3;
 } 
-.book {
+.book, .join{
     background-color: darkgray;
-}
-.join{
-    background-color: darkgray;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: rgb(218, 111, 4);
@@ -45,11 +73,18 @@ nav a:hover {
 .msg {
     background-color: rgba(20,30,13, .7);
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 } 
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 footer {
     background-color: rgba(20,30,13, .7);
     color: white;
     text-decoration: none;
+    padding: 25px 50px;
 } 
 footer a {
     text-decoration: none;
@@ -60,10 +95,24 @@ footer a {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 footer p {
     font-size: 1.3em;
+}
+h2 {
+    margin:0;
+}
+foot .social img {
+    padding-top: 15px;
+    margin-top: 200px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
