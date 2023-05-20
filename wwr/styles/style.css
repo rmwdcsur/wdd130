@@ -85,6 +85,7 @@ footer {
     color: white;
     text-decoration: none;
     padding: 25px 50px;
+    margin-top: 200px;
 } 
 footer a {
     text-decoration: none;
@@ -92,6 +93,8 @@ footer a {
 }
 .logo {
     width: 80px;
+    margin-bottom: 40px;
+    margin-top: 5px;
 }
 .icon {
     width: 80px;
@@ -106,9 +109,8 @@ footer p {
 h2 {
     margin:0;
 }
-foot .social img {
+footer .social img {
     padding-top: 15px;
-    margin-top: 200px;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
