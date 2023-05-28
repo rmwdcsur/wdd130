@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .square {
+    height: 700px;
+    width: 700px;
+    background-color: rgb(182, 178, 178);
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .leftsquare {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1/2;
+
+  }
+
+  .square-text {
+    text-align: center;
+    padding-top: 450px;
+    font-size: 5em;
+  }
+
+  h2 {
+    color:rgb(119, 0, 0);
+    letter-spacing: 0.3em;
+  }
+
+  h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 10em;
+    letter-spacing: 0.2em;
+    z-index: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1/2;
+  }

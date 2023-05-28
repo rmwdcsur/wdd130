@@ -59,6 +59,7 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .book:hover {
     background-color: rgb(218, 111, 4);
