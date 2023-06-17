@@ -176,6 +176,62 @@ nav {
     transform: scale(1.08);
 }
 
+/* RIVERS Page CSS */
+.rivers-carrousel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.rivers-img {
+    width: 800px;
+    height: 500px;
+}
+.rivers-grid{
+    display: grid;
+    width: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    grid-gap: 50px;
+}
+.rivers-card1{
+    grid-column: 1/1;
+}
+.rivers-card2{
+    grid-column: 2/2;
+}
+.rivers-card3{
+    grid-column: 3/3;
+}
+.rivers-card-img {
+    margin-top: 20px;
+    border: 5px solid black;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rivers-card-img:hover {
+    opacity: .6;
+}
+h4 {
+    margin: 0;
+    font-size: small;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+.tour-guide {
+    width: 300px;
+    align-self: flex-start;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
