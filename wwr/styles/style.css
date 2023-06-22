@@ -92,7 +92,7 @@ footer {
     color: white;
     text-decoration: none;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -217,6 +217,18 @@ nav {
 h4 {
     margin: 0;
     font-size: small;
+}
+.river-text-section {
+    border: 5px solid black;
+    margin: 80px 100px;
+}
+.river-text-description {
+    margin: 40px;
+    font-size: .8em;
+    text-align: justify;
+}
+.meet-the-guide {
+    margin-bottom: 70px;
 }
 
 /* Rounded border */
