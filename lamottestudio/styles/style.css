@@ -155,7 +155,9 @@ body, html {
     transform: scale(1.01);
   }
   .card-img-top {
-    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
     height: 300px;
   }
 
@@ -225,4 +227,8 @@ body, html {
   }
   .social-media h5{
     margin-bottom: 20px;
+  }
+
+  .card2, .card3 {
+    margin-left: 50px;
   }
