@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Lato');
+
+:root {
+  --heading-font: "Archivo Narrow";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+}
+
  body {
     background-color: black;
 } 
@@ -66,7 +73,11 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
   }
   
   * {
@@ -80,6 +91,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
+    position: relative;
   }
   
   /* Images used */
@@ -98,7 +111,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 0;
     width: 300px;
     padding: 20px;
     text-align: center;
@@ -185,6 +198,8 @@ body, html {
   .services-section {
     background-color: #5F520A;
     height: 600px;
+    z-index: 1;
+    position: relative;
   }
   .row {
     margin-top: 50px;
