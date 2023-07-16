@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #020100   ;
-  --secondary-color: #5D5D5D ;
+  --primary-color: #020100;
+  --secondary-color: #343330;
   --accent1-color: #5F520A;
-  --accent2-color: #343330;
+  --accent2-color: #5D5D5D;
   --accent3-color: #9B8F4A;
   --accent4-color: #F8F8F8;
 
