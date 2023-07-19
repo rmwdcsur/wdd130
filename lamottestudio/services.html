@@ -43,11 +43,6 @@
     
     </header>
     
-
-
-
-    <!-- <main> -->
-
         <div class="img-scroll">
 
           <div class="bg-text">SERVICES</div>
@@ -60,30 +55,43 @@
         
         <div class="services-section">
             <div class="grid-services">
-                <i class="bi bi-hourglass icon1">
-                    <p class="icon1">Prueba texto Lorem <br> ipsum dolor sit amet <br> consectetur adipisicing</p>
-                </i>
-                <i class="bi bi-piggy-bank icon2">
-                    <p class="icon2">Prueba texto Lorem <br> ipsum dolor sit amet <br> consectetur adipisicing</p>
-                </i>
-                <i class="bi bi-wallet-fill icon3">
-                    <p class="icon3">Prueba texto Lorem <br> ipsum dolor sit amet <br> consectetur adipisicing</p>
-                </i>
-                <i class="bi bi-wrench-adjustable icon4">
-                    <p class="icon4">Prueba texto Lorem <br> ipsum dolor sit amet <br> consectetur adipisicing</p>
-                </i>
+                <div class="bi bi-hourglass icon1">
+                    <p class="icon1">Your project on time <br> Outsourcing tasks<br> or a whole project</p>
+                </div>
+                <div class="bi bi-piggy-bank icon2">
+                    <p class="icon2">Save money <br> avoid costs of hiring <br> for specific projects</p>
+                </div>
+                <div class="bi bi-wallet-fill icon3">
+                    <p class="icon3">Within your budget <br> flexible solutions <br> to fit all needs</p>
+                </div>
+                <div class="bi bi-wrench-adjustable icon4">
+                    <p class="icon4">We have the tools <br> and skills your business <br> needs for robust IT</p>
+                </div>
             </div>
-            <div class="btn-quote">
+            <div class="btn-quote" id="myBtn">
                 <button type="button" class="btn btn-dark">Get a Quote!</button>
             </div>
-            
-
         </div>
-        
-    <!-- </main> -->
-    
 
+  <!-- The Modal -->
+<div id="myModal" class="modal">
 
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Contact Us via WhatsApp</h2>
+      </div>
+      <div class="modal-body">
+        <p>Let us know your email address and your inquiry</p>
+        <p>We will get right back to you.</p>
+      </div>
+      <div class="modal-footer">
+        <h3>Thank you for your interest in our services</h3>
+      </div>
+    </div>
+  
+  </div>
 
     <footer class="grid-container">
       <div class="grid-item1">
@@ -107,6 +115,34 @@
   </footer>
 </section>
 </main>
-</body>
+<script>
+// JAVASCRIPT for Get a Quote button Modal Effect
 
+  // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+  modal.style.display = "none";
+}
+}
+</script>
+</body>
 </html>
